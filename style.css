@@ -1,0 +1,56 @@
+#textInput {
+    width: 97%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#countButton {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    background-color: #00b4d8;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#countButton:hover {
+    border: 1px solid #00b4d8;
+    background-color: #fff;
+    color: #00b4d8;
+}
+
+#lettersDiv {
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        display: inline;
+    }
+
+    #textInput {
+        width: 60%;
+        margin-top: 10px;
+    }
+
+    #countButton {
+        height: 30%;
+        width: 15%;
+        text-align: center;
+        margin-left: 10px;
+        display: inline;
+    }
+
+    .container {
+        display: inline;
+    }
+
+    #lettersDiv {
+        margin-left: 10px;
+    }
+
+    #wordsDiv {
+        margin-left: 10px;
+    }
+}
